@@ -1,0 +1,33 @@
+body {
+  background-color: #1d1f21;
+  color: white;
+}
+.sub-navbar {
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+.sub-navbar a:hover {
+  color: #04aa6d;
+}
+.sub-navbar::-webkit-scrollbar {
+  display: none;
+}
+.scroll-menu {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.scroll-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-btn {
+  background: #1c1c1c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
