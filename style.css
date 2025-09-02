@@ -1,17 +1,16 @@
-
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #f8f9fa;
   color: #333;
   width: 250;
   font-size: 16px;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 .nav-link a:hover {
   color: #04aa6d;
 }
-.navbar{  
+.navbar {
   padding: 10px 20px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -22,7 +21,7 @@ body {
   white-space: nowrap;
   scroll-behavior: smooth;
 }
-.bottom-nav{
+.bottom-nav {
   top: 56px;
 }
 .scroll-menu::-webkit-scrollbar {
@@ -39,7 +38,7 @@ body {
   background: #04aa6d;
 }
 .d-flex {
-  width: auto;
+  margin-left: 10px;
 }
 .btn-success {
   background-color: #0aa36f;
@@ -52,7 +51,6 @@ body {
 .form-control {
   width: 100%;
   border: 1px solid #0aa36f;
-  
 }
 .btn-yellow {
   background-color: #d9eee1;
@@ -116,10 +114,10 @@ pre {
 }
 .section-css {
   background-color: #d7f0fe;
-} 
+}
 .section-js {
   background-color: #fff3cd;
-} 
+}
 .section-python {
   background-color: #e6d7fe;
 }
@@ -127,19 +125,38 @@ pre {
 section {
   padding: 10px 0;
   margin-top: -18px;
+  text-align: center;
 }
 .hero-section {
-  margin-top: 90px;
-  padding-top: 90px;
-  height: 56vh;
+  min-height: 68vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   background-color: #282a35;
-  
+}
+.section-login {
+  background-color: #d9eee1;
+}
+.search-bar {
+  max-width: 600px;
+  width: 100%;
+}
+.search-input {
+  border-radius: 50px 0 0 50px;
+  padding: 0.8rem 1.2rem;
+}
+.search-btn {
+  border-radius: 0 50px 50px 0;
+  padding: 0.8rem 1.5rem;
 }
 .code-box {
   background: #f1f1f1;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 .code-box pre {
   background: white;
@@ -161,11 +178,31 @@ section {
   color: black;
 }
 
-.bottom-nav{
+.bottom-nav {
   top: 56px;
 }
-h1{
-  font-family: 'Source Sans Pro', sans-serif;
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 80px;
   margin-bottom: 15px;
+}
+.card {
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px;
+  color: black;
+}
+.btn-custom {
+  background-color: #1c1f2b;
+  color: white;
+  border-radius: 25px;
+  padding: 8px 10px;
+}
+.btn-custom:hover {
+  background-color: #009708;
+  color: #fff;
+}
+.section-login {
+  background-color: #d9eee1;
 }
