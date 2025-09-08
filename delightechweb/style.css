@@ -300,11 +300,15 @@ body {
 }
 
 .video-placeholder {
-  background: white;
-  padding: 4rem;
+  background: rgb(236, 233, 233);
+  padding: 1.5rem;
   border-radius: 12px;
   text-align: center;
   color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 /* News Section */
@@ -394,7 +398,7 @@ body {
   height: 120px;
   margin: 0 auto 1.5rem;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ffa726, #ff9800);
+  background: linear-gradient(135deg, #1f99e4, #3b1cff);
   padding: 5px;
   overflow: hidden;
 }
